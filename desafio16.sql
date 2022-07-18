@@ -1,0 +1,3 @@
+-- Active: 1658173752661@@127.0.0.1@3308@northwind
+SELECT submitted_date FROM `purchase_orders`
+WHERE submitted_date BETWEEN '2006-01-26 00:00:00' AND '2006-03-31 23:59:59';
